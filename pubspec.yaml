@@ -14,6 +14,8 @@ dependencies:
   isar: ^3.0.5
   isar_flutter_libs: ^3.0.5
   path_provider: ^2.0.11
+  http: ^0.13.5
+  get: ^4.6.5
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -23,3 +25,5 @@ dev_dependencies:
   
 flutter:
   uses-material-design: true
+
+  
