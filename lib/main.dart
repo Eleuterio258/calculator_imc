@@ -4,7 +4,6 @@ import 'package:calculator_imc/bloc/imc/imc_bloc.dart';
 import 'package:calculator_imc/bloc/service_bloc/service_bloc.dart';
 import 'package:calculator_imc/bloc/service_bloc/service_event.dart';
 import 'package:calculator_imc/bloc/service_bloc/service_respositoty.dart';
-import 'package:calculator_imc/page/delta/equacao_page.dart';
 import 'package:calculator_imc/page/home/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -12,6 +11,12 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 void main() {
   runApp(const MyApp());
 }
+
+
+
+
+
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -37,7 +42,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const FreelaPage(),
+        home: HomePage(),
       ),
     );
   }
